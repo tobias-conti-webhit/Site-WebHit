@@ -1,0 +1,94 @@
+body {
+    height: 100vh;
+    font-family: 'Raleway', sans-serif;
+}
+
+#head {
+    background-color:black;
+    height: 13vh;
+    width: 100vw;
+}
+
+#head img {
+    height: 10vh;
+    width: 10vw;
+}
+
+.head-container  {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 13vh;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+}
+
+.head-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 13vh;
+    width: 50vw;
+}
+
+.head-menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 13vh;
+    color: white;
+    font-size: 2.5vh;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+.head-menu-item:hover{
+    background-color: white;
+    color: black;
+    transition: 500ms;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    cursor: pointer;
+}
+
+#main-page {
+    background-image: url(./src/backgroun1.jpg);
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.main-page-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color:black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    width: 30vw;
+    height: 60vh;
+}
+
+.title {
+    font-size: 4vh;
+    font-weight: 700;
+}
+
+.description {
+    font-size: 4vh;
+}
+
+.contact-button {
+    background-color: black;
+    color: white;
+    height: 5vh;
+    width: 20vw;
+    border-radius: 15px;
+    border: 2px solid white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    margin-left: 5vw;
+}
